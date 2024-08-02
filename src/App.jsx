@@ -4,7 +4,17 @@ function App() {
 
   return (
     <>
-      <h1 className="text-red-500">Cleany website is a home cleaning service website that i use</h1>
+      <header>
+        <Navigation />
+        <Hero />
+      </header>
+      <About />
+      <Services />
+      <Team />
+      <Pricing />
+      <Testimonials />
+      <CallToAction />
+      <Footer />
     </>
   )
 }
