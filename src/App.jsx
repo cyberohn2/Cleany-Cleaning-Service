@@ -15,7 +15,7 @@ function App() {
       <header className="relative max-w-[1440px] mx-auto">
         <Navigation />
         <Hero />
-        <div className="bg-[#80C1EF] absolute inset-y-0 right-0 rounded-bl-[350px]"></div>
+        <div className="bg-[#80C1EF] absolute inset-y-0 right-0 w-[706px] rounded-bl-[350px]"></div>
       </header>
       <About />
       <Services />
