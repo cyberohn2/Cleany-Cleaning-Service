@@ -12,10 +12,10 @@ function App() {
 
   return (
     <>
-      <header className="relative max-w-[1440px] mx-auto">
+      <header className="relative max-w-[1440px] mx-auto px-1">
         <Navigation />
         <Hero />
-        <div className="bg-[#80C1EF] absolute inset-y-0 right-0 w-[706px] rounded-bl-[350px]"></div>
+        <div className="bg-[#80C1EF] absolute inset-y-0 right-0 w-[706px] rounded-bl-[350px] -z-10"></div>
       </header>
       <About />
       <Services />
